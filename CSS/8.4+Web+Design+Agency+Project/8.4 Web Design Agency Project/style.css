@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+.card > img{
+  width: 400px;
+  padding: 2%;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+.right{
+  float: right;
+  width: 50%;
+
+}
+.tile-image{
+  float: left;
+  border-radius: 15%;
+}
+.card-title{
+  margin-top: 0%;
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 15px;
+}
+.card-text{
+  margin-top:-40px;
+  font-size: 24px;
+  margin-left: 15px;
+}
+.creative{
+  color: midnightblue;
+}
+@media (max-width:1609px) and (min-width:1300px){
+  .card-title{
+    clear: both;
+  }
+  .right{
+    clear: right;
+  }
+  .left{
+    clear: left;
+  }
+}
+@media (max-width:950px) and (min-width:856px){
+  .right{
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+  }
+  footer > p{
+    text-align: center;
+  }
+}
+@media (max-width:856px){
+  .right{
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+  }
+  footer > p{
+    text-align: center;
+  }
+  .card-title{
+    clear: both;
+  }
+  .main > h1{
+    text-align: center;
+  }
+  .card > img{
+    width: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+    height: 250px;
+  }
+  .logo{
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
